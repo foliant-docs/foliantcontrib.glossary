@@ -65,11 +65,11 @@ preprocessors:
 ```
 # Glossary
 
-<include nohead="true">
+<<include nohead="true">
     $https://git.repo/repo_name_1$src/glossary_1.md
 </include>
 
-<include nohead="true">
+<<include nohead="true">
     $https://git.repo/repo_name_2$src/glossary_2.md
 </include>
 ```
