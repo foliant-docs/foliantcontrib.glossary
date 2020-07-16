@@ -1,3 +1,5 @@
+[![](https://img.shields.io/pypi/v/foliantcontrib.glossary.svg)](https://pypi.org/project/foliantcontrib.glossary/) [![](https://img.shields.io/github/v/tag/foliant-docs/foliantcontrib.glossary.svg?label=GitHub)](https://github.com/foliant-docs/foliantcontrib.glossary)
+
 # Glossary collector for Foliant
 
 Glossary preprocessor collects terms and definitions from the files stated and inserts them to specified places of the document.
@@ -65,11 +67,11 @@ preprocessors:
 ```
 # Glossary
 
-<<include nohead="true">
+<include nohead="true">
     $https://git.repo/repo_name_1$src/glossary_1.md
 </include>
 
-<<include nohead="true">
+<include nohead="true">
     $https://git.repo/repo_name_2$src/glossary_2.md
 </include>
 ```
